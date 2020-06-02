@@ -1,0 +1,214 @@
+/***************************/
+/*Default css styling*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff;
+    color: blueviolet;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    font-size: large;
+}
+
+a {
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+/***********************************/
+/*****************************/
+/****Navigation**/
+nav {
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+.nav-menu {
+    display: inline-block;
+    padding: 10px 15px;
+
+
+    line-height: 2rem;
+}
+
+.nav-Menulist {
+    list-style: none;
+    float: right;
+}
+
+.nav-Menulist li {
+
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.nav-Menulist li a {
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+}
+
+nav ul li a {
+    letter-spacing: 0.15em;
+    position: relative;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-transform: uppercase;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+
+/****************************/
+/****************************************/
+/*header*/
+.home {
+    background-image: url('../img/home.jpg');
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+}
+
+#header .header-content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+}
+
+.header-content li {
+    display: inline;
+}
+
+.header-content .list-social li {
+    float: left;
+    margin-right: 40px;
+}
+
+.header-content .list-social li i {
+    font-size: 20px;
+}
+
+
+/********************/
+/****About-section***/
+.about-section {
+    padding-top: 190px;
+    width: 100%;
+    height: auto;
+    background: whitesmoke;
+    position: relative;
+}
+
+#about .profile-wrap {
+    padding-bottom: 30px;
+    border: 20px solid #b8a70e;
+}
+
+.profile-wrap .image-profile img{
+    margin-left: 30px;
+    margin-top: -50px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0px 0px 85px 0px rgba(0,0,0,0.14);
+}
+.abt-descr .heading{
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Playfair display', serif;
+}
+.service-section{
+    padding-bottom: 80px;
+    position: relative;
+    padding-top: 80px;
+
+}
+.service-block{
+    margin: auto;
+    width: 250px;
+    background: #f0ffff;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   border-radius: 5px;
+   display: inline-block;
+}
+.service-block span{
+     font-weight:700 ;
+     color: #292929;
+     letter-spacing: 0.15em;
+     text-transform: uppercase;
+     margin: 10px 0;
+     font-size: 13px;
+     position: relative;
+     display: block;
+     text-align: center;
+
+}
+.service-block i{
+    font-size: 100px;
+    line-height: 100px;
+    color: #000fff;
+
+}
+.service-block .description{
+    margin: 0;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+
